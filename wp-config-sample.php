@@ -20,19 +20,19 @@
 
 // ** Параметры MySQL: Эту информацию можно получить у вашего хостинг-провайдера ** //
 /** Имя базы данных для WordPress */
-define( 'DB_NAME', 'wsrrksi_wp1' );
+define( 'DB_NAME', 'database_name_here' );
 
 /** Имя пользователя MySQL */
-define( 'DB_USER', 'root' );
+define( 'DB_USER', 'username_here' );
 
 /** Пароль к базе данных MySQL */
-define( 'DB_PASSWORD', 'root' );
+define( 'DB_PASSWORD', 'password_here' );
 
 /** Имя сервера MySQL */
 define( 'DB_HOST', 'localhost' );
 
 /** Кодировка базы данных для создания таблиц. */
-define( 'DB_CHARSET', 'utf8mb4' );
+define( 'DB_CHARSET', 'utf8' );
 
 /** Схема сопоставления. Не меняйте, если не уверены. */
 define( 'DB_COLLATE', '' );
@@ -46,14 +46,14 @@ define( 'DB_COLLATE', '' );
  *
  * @since 2.6.0
  */
-define( 'AUTH_KEY',         '~sISTvz-yfFy3#M:gR{&FjrrK.k{g~,GVyeY^;C~)apj]iQHwe~ VdT|PUy+P.-2' );
-define( 'SECURE_AUTH_KEY',  'CfPY3RQSt,.vZyrSZFISvsKpD/~W(6Sg,sQR87=.QO>j+U)r^l_ V[<w`P*5.I]c' );
-define( 'LOGGED_IN_KEY',    '&/#b7vC[(vD>Vgu1,@{[$<hc#mNL6?!WX=U.i}3u9R=XL_Yd7h~}lb.ksK0JXImi' );
-define( 'NONCE_KEY',        'Wp{|#ZMVSpVJ};Nl6`1|x!MaN,~o@8$F3Q-q,sC2g5626eVi*dB5W:SPRmz!^zD&' );
-define( 'AUTH_SALT',        '70e8 BKfBJ3HTZ>x83+mXnY@-K[c%?r#pQTANHgD9Gy|gVb`T}t.1Wt^OvA1$!b+' );
-define( 'SECURE_AUTH_SALT', 'TS}]NFt*FVL)`v2@y@1?$OnZu!|+RhGrJxe7?_0aUDVv?_6w.x4lvCN~UbFJ]tl/' );
-define( 'LOGGED_IN_SALT',   'CstDo7vLofg2)o>t~,IO!aU>*>q6_A`TUBidOyOw8U!Oe)X].u|8[O|ymLj&4^m~' );
-define( 'NONCE_SALT',       'HK[aVEAfvbd)PNQfp2}VYpgJ2zQ]P&&(P;(Mrvb)Va?j>l50J=~2I|AT.y1[EV=L' );
+define( 'AUTH_KEY',         'впишите сюда уникальную фразу' );
+define( 'SECURE_AUTH_KEY',  'впишите сюда уникальную фразу' );
+define( 'LOGGED_IN_KEY',    'впишите сюда уникальную фразу' );
+define( 'NONCE_KEY',        'впишите сюда уникальную фразу' );
+define( 'AUTH_SALT',        'впишите сюда уникальную фразу' );
+define( 'SECURE_AUTH_SALT', 'впишите сюда уникальную фразу' );
+define( 'LOGGED_IN_SALT',   'впишите сюда уникальную фразу' );
+define( 'NONCE_SALT',       'впишите сюда уникальную фразу' );
 
 /**#@-*/
 
