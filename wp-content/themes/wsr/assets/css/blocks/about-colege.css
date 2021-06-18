@@ -1,0 +1,40 @@
+.video-section.colege video {
+    margin-top: -130px;
+}
+
+
+.content_about-colege {
+    margin-top: 60px;
+}
+
+.content_about-colege p {
+    margin-bottom: 30px;
+    font-size: 18px;
+    line-height: 1.4;
+}
+
+.content_about-colege .row { display: flex; }
+.content_about-colege .row .col-md-4 { width: 33.33%; }
+.content_about-colege .row .col-md-8 { width: 66.66%; }
+
+.about-colege__left-side {
+    max-width: 470px;
+    max-height: 749px;
+    overflow: hidden;
+}
+
+.about-colege__left-side img { max-width: 100%; }
+
+.about-colege__left-side p { 
+    font-size: 20px; 
+    font-family: "Montserrat-SB";
+    font-weight: 600;
+}
+
+.about-colege__right-side { padding-left: 50px; }
+
+@media (max-width: 1000px) {
+    .about-college .content_about-colege .row { flex-direction: column; }
+    .about-college .content_about-colege .row div { width: 100%; padding: 0; }
+    .about-college .content_about-colege .row div.col-md-4 { margin: 0 auto; }
+}
