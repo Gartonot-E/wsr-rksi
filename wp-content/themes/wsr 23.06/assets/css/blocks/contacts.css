@@ -1,0 +1,96 @@
+section.contacts .content {
+    margin: 60px 0;
+}
+
+section.contacts .content .col-md-8 { padding-left: 50px; }
+
+section.contacts .content .col-md-4 .card-list {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+section.contacts .content .col-md-4 .card-list .card-item {
+    background: #eee;
+    width: 100%;
+    min-height: 80px;
+    border-radius: 16px;
+}
+
+.contacts__soc-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contacts__soc-links p {
+    font-family: "Montserrat-SB";
+    font-weight: 600;
+    font-size: 20px;
+    margin-right: 26px;
+}
+
+.contacts .card-item__img {
+    max-width: 177px;
+    min-width: 177px;
+    height: auto;
+    overflow: hidden;
+}
+
+.contacts .card-item__img img {
+    width: 100%;
+    border-radius: 16px 0 0 16px;
+}
+
+.contacts .card-list .card-item {
+    display: flex;
+}
+
+.contacts .card-list .card-item .card-item__info {
+    padding: 14px 14px 14px 20px;
+}
+
+.contacts .card-list .card-item .card-item__info p.header {
+    font-size: 16px;
+    font-family: "Montserrat-SB";
+    font-weight: 600;
+}
+
+.contacts .card-list .card-item .card-item__info a.mail {
+    display: flex;
+    align-items: center;
+    margin-top: 6px;
+    color: #000;
+    flex-wrap: wrap;
+}
+
+.contacts .card-list .card-item .card-item__info a.mail svg { margin-right: 10px; }
+.contacts .card-list .card-item .card-item__info a.phone { margin-top: 6px; color: #000; }
+.contacts .card-list .card-item .card-item__info p.phone a { color: #000; }
+.contacts .card-list .card-item .card-item__info p.messengers { margin-top: 7px; }
+
+
+@media (max-width: 1660px) {
+    .contacts .card-list .card-item { flex-direction: column;}
+    .contacts .card-item__img { min-width: 100%; max-width: 100%; }
+    .contacts .card-item__img img { border-radius: 16px 16px 0 0; }
+}
+
+@media (max-width: 1000px) {
+    .contacts .row { flex-direction: column; }
+    .contacts .card-item__img { min-width: 275px; max-width: 275px; }
+    .contacts .card-list .card-item { flex-direction: row; }
+    section.contacts .content .col-md-4 .card-list { flex-direction: column; }
+    section.contacts .content .col-md-4, section.contacts .content .col-md-8 { width: 100%; padding: 0; margin: 0;}
+    section.contacts .content .col-md-8 { margin: 50px 0; }
+    .contacts .card-list .card-item .card-item__info p.mail,
+    .contacts .card-list .card-item .card-item__info p.phone,
+    .contacts .card-list .card-item .card-item__info p.messengers { margin-top: 12px; }
+    .contacts .card-item__img img { border-radius: 16px 0 0 16px; }
+}
+
+@media (max-width: 768px)  {
+    .contacts .card-list .card-item { flex-direction: column;}
+    .contacts .card-item__img { min-width: 100%; max-width: 100%; }
+    .contacts .card-item__img img { border-radius: 16px 16px 0 0; }
+}

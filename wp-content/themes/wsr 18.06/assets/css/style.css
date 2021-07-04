@@ -1,0 +1,20 @@
+/* Fonts style */
+@import url('blocks/fonts.css');
+
+/* Base style */
+@import url('blocks/base.css');
+
+/* Header style */
+@import url('blocks/header.css');
+
+/* Gamburger style */
+@import url('blocks/gamburger.css');
+
+/* Slider style */
+@import url('blocks/slider.css');
+
+/* About-wsr style */
+@import url('blocks/about-wsr.css');
+
+/* About-colege style */
+@import url('blocks/about-colege.css');

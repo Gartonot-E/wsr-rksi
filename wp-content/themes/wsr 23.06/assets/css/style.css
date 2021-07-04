@@ -1,0 +1,38 @@
+/* Fonts style */
+@import url('blocks/fonts.css');
+
+/* Base style */
+@import url('blocks/base.css');
+
+/* Woow-news-plugin style */
+@import url('blocks/woow-news-plugin.css');
+
+/* Header style */
+@import url('blocks/header.css');
+
+/* Gamburger style */
+@import url('blocks/gamburger.css');
+
+/* Slider style */
+@import url('blocks/slider.css');
+
+/* About-wsr style */
+@import url('blocks/about-wsr.css');
+
+/* About-colege style */
+@import url('blocks/about-colege.css');
+
+/* All-championship style */
+@import url('blocks/all_champinship.css');
+
+/* News style */
+@import url('blocks/news.css');
+
+/* Partners style */
+@import url('blocks/partners.css');
+
+/* Contacts style */
+@import url('blocks/contacts.css');
+
+/* Single style */
+@import url('blocks/single.css');

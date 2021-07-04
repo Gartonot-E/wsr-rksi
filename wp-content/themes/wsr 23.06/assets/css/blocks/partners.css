@@ -1,0 +1,37 @@
+.partners {
+    margin-top: 100px;
+    width: 100%;
+}
+
+.content {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.content .block {
+    display: flex;
+    width: calc(100%/5);
+    height: 316px;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.content .block img {
+    width: 100%;
+}
+
+
+
+@media (max-width: 600px) {
+    .content .block {
+        width: calc(100%/3);
+        height: 200px;
+    }
+}
+
+@media (max-width: 400px) {
+    .content .block {
+        width: calc(100%/2);
+    }
+}

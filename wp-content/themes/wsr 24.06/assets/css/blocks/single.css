@@ -1,0 +1,176 @@
+/* Single champ */
+.championshops a {
+    color: rgb(21, 58, 138);
+}
+
+.championshops a:hover { text-decoration: underline; }
+
+.championshops .result_champ h1,
+.championshops .result_champ h2,
+.championshops .result_champ h3,
+.championshops .result_champ h4,
+.championshops .result_champ h5,
+.championshops .result_champ h6 {
+    margin: 30px 0 15px 0;   
+    font-size: 1.5em;
+}
+
+.championshops .content > div { width: 100%; }
+
+.championshops .wrapper_result { margin-top: 50px; }
+.championshops .wrapper_result h1 { font-size: 30px; }
+.championshops .about-champ .about-champ__content,
+.championshops .about-champ .about-champ__logo-min,
+.championshops .about-champ .about-champ__hashtags { margin-top: 20px; }
+.championshops .about-champ .about-champ__hashtags ul { display: flex; justify-content: center; gap: 20px; }
+.championshops .about-champ .about-champ__hashtags li { font-weight: 700; color:rgb(21, 58, 138); }
+
+
+.championshops li {
+    margin-bottom: 10px;
+}
+
+.championshops .content .content_header {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.championshops .about-champ,
+.championshops .competences,
+.championshops .programms {
+    margin-top: 25px;
+    padding-top: 25px;
+    border-top: 2px solid rgb(0 0 0 / 20%);
+}
+
+.championshops .competences h2,
+.championshops .competences ul li,
+.championshops .programms h2 { margin-bottom: 20px; }
+
+.championshops .competences ul li a {
+    background: #eee;
+    border-radius: 4px;
+    padding: 4px 8px;
+    margin-left: 10px;
+}
+
+.championshops .competences ul li:hover a
+.championshops .competences ul li a:active,
+.championshops .competences ul li a:focus { color: #333; }
+
+
+
+
+/* All single */
+.single-page {
+    position: relative;
+}
+
+.single-page .wrapper-header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+.single-page .overlay {
+    max-height: 472px;
+    overflow: hidden;
+}
+
+.single-page .overlay img {
+    width: 100%;
+}
+
+.single-page .wrapper-header h1 {
+    position: absolute;
+    top: 100px;
+    color: #fff;
+    z-index: 99;
+}
+
+.single-page .wrapper-header h1 a { opacity: .8; }
+
+.single-page .overlay {
+    filter: brightness(0.3);
+}
+
+.single-page .content {
+    position: relative;
+    background: #fff;
+    padding: 20px;
+    border: 1px solid #999;
+    transform: translate(0, 25%);
+    min-height: 500px;
+    transition: transform .3s ease;
+}
+
+.single-page .content .before_more {
+    font-family: "Montserrat-SB";
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.single-page .content .after_more {
+    min-height: 400px;
+    width: 100%;
+    text-align: center;
+}
+
+.single-page .content .after_more img { width: max-content; margin: 0 auto; }
+
+.single-page .content .after_more p {
+    text-align: justify;
+    margin-bottom: 30px;
+    font-size: 18px;
+    line-height: 1.6em;
+}
+
+.single-page .content .after_more ul {
+    text-align: left;
+    font-size: 18px;
+}
+
+.single-page .content .after_more ul li:before {
+    content: "-";
+}
+
+
+
+@media (max-width: 1400px) {
+    .single-page .content { transform: translate(0, 25%); }
+}
+
+@media (max-width: 1100px) {
+    .single-page .content { transform: translate(0, 15%); }
+}
+
+@media (max-width: 807px) {
+    .single-page .content { transform: translate(0, 13%); }
+    .single-page .content .before_more { font-size: 18px; }
+}
+
+@media (max-width: 768px) {
+    .single-page .wrapper-header h1 { top: 50px; }
+    .single-page .content { transform: translate(0, 10%); }
+}
+
+@media (max-width: 600px) {
+    .single-page .content { transform: translate(0, 6%); }
+    .single-page .content .before_more { font-size: 16px; }
+    .single-page .content .after_more { line-height: 1.4em;}
+}
+
+@media (max-width: 465px) {
+    .single-page .wrapper-header h1 { top: 30px; font-size: 20px; }
+    .single-page .content { transform: translate(0, 4%); }
+    .single-page .content .after_more img { width: 100%; }
+}
+
+@media (max-width: 350px) {
+    .single-page .wrapper-header h1 { top: 25px; font-size: 20px; }
+    .single-page .content { transform: translate(0, 3%); }
+    .single-page .content .before_more { font-size: 14px; }
+}

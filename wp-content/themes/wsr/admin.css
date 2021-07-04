@@ -1,0 +1,16 @@
+.cs_medalists_web       > .acf-input > .acf-fields,
+.cs_medalists_web_jun   > .acf-input > .acf-fields,
+.cs_medalists_set       > .acf-input > .acf-fields,
+.cs_medalists_1c        > .acf-input > .acf-fields {
+    display: flex;
+    justify-content: space-between;
+}
+
+.cs_medalists_web_jun  .acf-field,
+.cs_medalists_set  .acf-field {
+    display: flex;
+    flex-direction: column;
+}
+
+.acf-fields.-left>.acf-field>.acf-input{ width: 100% !important; }
+.acf-fields.-left>.acf-field:before { display: none !important; }
